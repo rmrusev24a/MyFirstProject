@@ -2,5 +2,6 @@ import streamlit as st
 st.title("My first project")
 name = st.text_input("    ")
 if name:
-    st.write(f"Hello{name}")
+    st.write(f"Hello {name}, btw sali e MEGA tup!")
+    
     
